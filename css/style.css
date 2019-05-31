@@ -16,13 +16,15 @@ main{
     width: 768px; 
     height: auto;
 }
-h2{
+h2,h3,h4{
     text-align: center
 }
+h2{
+    margin-top: 50px;
+}
 h3{
-    margin: 0;
+    margin:10px auto 0;
     padding: 0;
-    text-align: center
 }
 header{
     background:var(--main-color);
@@ -83,6 +85,36 @@ header{
     display: flex;
     margin-top: 0;
     padding: 0;
+}
+/*work*/
+.wrokwimg{
+    display: block;
+}
+.workg{
+    width: 60%;
+}
+.workgs{
+    height:500px;
+}
+.workp{
+    width: 60%;
+}
+.workpoint{
+    display:flex;
+}
+.worktext1{
+    margin: 150px auto auto 10px;
+    font-size: 0.9em;
+}
+.webotimg{
+    width: 80%;
+    margin: 0 auto;
+}
+.tabakoimg{
+    margin-left: 120px
+}
+.tabako{
+    width: 80%;
 }
 /*フッター*/
 footer {
