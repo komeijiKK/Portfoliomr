@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <title>miyagawa portfolio</title>
 <link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 </head>
   <body>
     <header>
-      <nav>
+      <nav class="headA">
         <ul>
-          <li>TOP</li>
+          <li><a href="#TOP">TOP</a></li>
           <li><a href="#ABOUT">ABOUT</a></li>
           <li><a href="#SKILL">SKILL</a></li>
           <li><a href="#WORKWEB">WORK WEB</a></li>
@@ -18,29 +19,45 @@
       </nav>
     </header>
     <main>
-      <div class="container">
-        <h2>portfolioのテストです</h2> 
+      <div id="TOP">
+          <div class="name">
+          <p class="myname">MIYAGAWA RIKU</p>
+          <p class="pot">PORTFOLIO</p>
+          </div>
       </div>
-      <div class="container">
+      <div class="ABOUT">
         <h2 id="ABOUT">ABOUT</h2>
+        <p>シンプルで深みのあるデザインを目標に製作しています。コントラストとロジティックなデザインを意識し、図形を用いた鋭いシャープなデザインも行っています。また、WEBにおいてはレスポンシブデザインを行えるように努めコーディングを行い必要に応じてJavaScript,jqueryを導入しました</p>
       </div> 
-      <div class="container">
+      <div class="skill">
         <h2 id="SKILL">SKILL</h2>
+        <div class="skilltext">
+        <div class="langs">
+        <h3>言語スキル</h3>
+        <p>HTML,CSSに関しましては<br><em>WEBクリエイター能力認定試験（HTML5.0）スタンダード　修了</em></p>
+        <p>JavaScript,jqueryに関しましては必要に応じての実装のみの為、勉強中です。</p>
+        </div>
+        <div class="softs">
+        <h3>扱えるソフト</h3>
+        <ul>
+          <li>Adobe Photoshop/Adobe illustrator</li>
+          <li>Adobe Dreamweaver/Adobe Brackets</li>
+          <li>Microsoft office</li>
+        </ul>
+        </div>
+        </div>
       </div>
-      <div class="container">
+      <div class="WORKWEB">
         <h2 id="WORKWEB">WORK WEB</h2>
       </div>
-      <div class="container">
+      <div class="WORKDTP">
         <h2 id="WORKDTP">WORK DTP</h2>
       </div>
     </main>
     <footer>
-        <div class="footA">
-            <p>portfolio</p>
-                <div class="footB">
+        <div class="container">
                     <small>COPYRIGHT&copy;MIYAGAWA LIMITED. ALL RIGHTS RESERVED.</small>
-                </div>
-            </div>
+        </div>
     </footer>
   </body>
 </html>
