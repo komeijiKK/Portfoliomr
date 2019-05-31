@@ -4,7 +4,14 @@
 <meta charset="utf-8">
 <title>miyagawa portfolio</title>
 <link rel="stylesheet" href="css/style.css">
-<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<link rel="stylesheet" href="css/lightbox.css">
+<script src="lightbox-plus-jquery.js"></script>
+<script>
+lightbox.option({
+       'wrapAround': true,
+　　　　'alwaysShowNavOnTouchDevices': true
+})
+</script>
 </head>
   <body>
     <header>
@@ -49,9 +56,35 @@
       </div>
       <div class="WORKWEB">
         <h2 id="WORKWEB">WORK WEB</h2>
+          <div class="workwimg">
+          <img src="img/cafepc.jpg" alt="work" class="workg">
+          <img src="img/cafes.jpg" alt="work" class="workgs">
+              </div>
+          <h3>Cafeこもれび</h3>
+          <p>こちらは学校でグループ制作で作成しましたCafeのHPです。<br>ファミリー層をターゲットにし紅茶とくつろげる座敷がコンセプトのお店です。<br>ディレクターを担当し、制作進行やチームの取りまとめ、コーディングチェック等を行いました。制作においては主にコーディングに携わりヘッダー・フッター、headタグ内等の全ページ共通部分（レスポンシブも含む）のコーディングを行いました。</p>
+          <div class="workpoint">
+          <img src="img/cafeh.png" alt="work" class="workp">
+          <p class="worktext1">スマートフォン・タブレット端末では<br>ヘッダーにトグルボタンを追加全ページを通して操作のしやすさや画面が小さくなることを想定しトグルボタン、多様なメニューページにはナビゲーションバー展開、<br>操作性、見やすさを意識しました。<br>jQuery,javascriptを使用し実装しました。</p>
+          </div>
+          <h4>その他のページ</h4>
+          <div class="webotimg">
+          <a href="img/about.jpg" data-lightbox="group"><img src="img/about.jpg" width="200"></a>
+          <a href="img/menu.jpg" data-lightbox="group"><img src="img/menu.jpg" width="200"></a>
+          <a href="img/menusite.png" data-lightbox="group"><img src="img/menusite.png" width="200"></a>
+          <a href="img/access.jpg" data-lightbox="group"><img src="img/access.jpg" width="200"></a>
+          <a href="img/foam.jpg" data-lightbox="group"><img src="img/foam.jpg" width="200"></a>
+          </div>
       </div>
       <div class="WORKDTP">
         <h2 id="WORKDTP">WORK DTP</h2>
+          <h3>紙媒体での制作物</h3>
+          <div class="tabakoimg">
+          <a href="img/tabako.jpg" data-lightbox="group1"><img src="img/tabako.jpg" alt="work" class="tabako"></a>
+        </div>
+        <p>パッケージデザインの講座の際に、喫煙者でタバコが好きでカッコいいデザインのパッケージを作りたいと思い制作したタバコのパッケージです。<br>メンソール系の爽やかなかつ深みのある味わいをコンセプトに制作鋭角なシャープな図形と海をイメージにグラデーションを用いて表現しました。カラーパターンを変更する事で様々な商品展開にも対応できるようにデザインしています。</p>
+          <div class="tabakoimg">
+          <a href="img/opentabako_03.png" data-lightbox="group2"><img src="img/opentabako_03.png" alt="work" class="tabako"></a>
+        </div>
       </div>
     </main>
     <footer>
